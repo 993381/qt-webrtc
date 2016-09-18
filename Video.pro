@@ -6,7 +6,7 @@
 
 #QT       += core gui
 #QT += webenginewidgets
-QT += webenginewidgets
+QT += webenginewidgets serialport
 #greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Video
