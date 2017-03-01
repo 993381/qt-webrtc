@@ -15,9 +15,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    video.cpp
+    video.cpp \
+    webrtcwebpage.cpp
 
 HEADERS  += mainwindow.h \
-    video.h
+    video.h \
+    webrtcwebpage.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    res.qrc
