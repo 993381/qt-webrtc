@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>视频通话</string>
+   <string>中讯视讯管理系统</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -21,32 +21,57 @@
     <item row="0" column="0">
      <widget class="QStackedWidget" name="stackedWidget">
       <widget class="QWidget" name="page">
-       <layout class="QGridLayout" name="gridLayout_2">
-        <item row="1" column="1">
-         <widget class="QPushButton" name="pushButton2">
-          <property name="text">
-           <string>会议室2</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton3">
-          <property name="text">
-           <string>会议室3</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QPushButton" name="pushButton4">
-          <property name="text">
-           <string>会议室4</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
          <widget class="QPushButton" name="pushButton1">
           <property name="text">
-           <string>会议室1</string>
+           <string>加入会议室1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton2">
+          <property name="text">
+           <string>加入会议室2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton3">
+          <property name="text">
+           <string>加入会议室3</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton4">
+          <property name="text">
+           <string>加入会议室4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>Adobe Arabic</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::RightToLeft</enum>
+          </property>
+          <property name="text">
+           <string>山东中讯高科电子科技有限公司@版权所有</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
           </property>
          </widget>
         </item>
@@ -72,7 +97,7 @@
             <string notr="true"/>
            </property>
            <property name="text">
-            <string>返回</string>
+            <string>结束会议</string>
            </property>
           </widget>
          </widget>
