@@ -25,55 +25,34 @@
         <item>
          <widget class="QPushButton" name="pushButton1">
           <property name="text">
-           <string>加入会议室1</string>
+           <string>加入音频通话</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QPushButton" name="pushButton2">
           <property name="text">
-           <string>加入会议室2</string>
+           <string>加入视频通话</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton3">
-          <property name="text">
-           <string>加入会议室3</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton4">
-          <property name="text">
-           <string>加入会议室4</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Adobe Arabic</family>
-            <pointsize>14</pointsize>
-           </font>
-          </property>
-          <property name="layoutDirection">
-           <enum>Qt::RightToLeft</enum>
-          </property>
-          <property name="text">
-           <string>山东中讯高科电子科技有限公司@版权所有</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="placeholderText">
+             <string>请输入服务器ip, 如 192.168.1.101</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>设置服务器IP</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
        </layout>
       </widget>
